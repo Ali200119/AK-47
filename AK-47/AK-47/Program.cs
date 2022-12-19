@@ -24,7 +24,7 @@ do
 
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine($"The number of ammo in weapon is: {ammo}");
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
 
             Console.WriteLine("Choose a shooting mode:\n" +
                 "S. Single bursts\n" +
@@ -59,7 +59,7 @@ do
                         result3 = true;
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Successful reload");
-                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.ResetColor();
                     }
 
                     else
@@ -100,7 +100,7 @@ do
                         result3 = true;
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Successful reload");
-                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.ResetColor();
                     }
 
                     else
@@ -136,5 +136,5 @@ static void Empty()
 {
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Your weapon is empty");
-    Console.ForegroundColor = ConsoleColor.White;
+    Console.ResetColor();
 }

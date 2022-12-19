@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ali200119/Desktop/AK-47/AK-47/AK-47/AK-47.csproj": {}
+    "C:\\Users\\aliit\\Desktop\\AK-47\\AK-47\\AK-47\\AK-47.csproj": {}
   },
   "projects": {
-    "/Users/ali200119/Desktop/AK-47/AK-47/AK-47/AK-47.csproj": {
+    "C:\\Users\\aliit\\Desktop\\AK-47\\AK-47\\AK-47\\AK-47.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ali200119/Desktop/AK-47/AK-47/AK-47/AK-47.csproj",
+        "projectUniqueName": "C:\\Users\\aliit\\Desktop\\AK-47\\AK-47\\AK-47\\AK-47.csproj",
         "projectName": "AK-47",
-        "projectPath": "/Users/ali200119/Desktop/AK-47/AK-47/AK-47/AK-47.csproj",
-        "packagesPath": "/Users/ali200119/.nuget/packages/",
-        "outputPath": "/Users/ali200119/Desktop/AK-47/AK-47/AK-47/obj/",
+        "projectPath": "C:\\Users\\aliit\\Desktop\\AK-47\\AK-47\\AK-47\\AK-47.csproj",
+        "packagesPath": "C:\\Users\\aliit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aliit\\Desktop\\AK-47\\AK-47\\AK-47\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/ali200119/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\aliit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
